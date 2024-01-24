@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Chocolate Landing Page</title>
+  <link rel="icon" type="image/x-icon" href="logo2.jpeg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Section -->
+  <div id="top-section">
+    <img src="logo.jpeg" alt="Logo 1">
+    <span id="menu-toggle" onclick="toggleMenu()">  [Menu]</span>
+    <div id="menu">
+      <a href="#">Back</a>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Our Chocolates</a>
+    </div>
+    <h1>Fulfill your cravings by taking a bite with a chocolate</h1>
+  </div>
+
+  <!-- Middle Section -->
+  <div id="middle-section">
+    <div>
+      <img src="logo2.jpeg" alt="Logo 2" >
+    </div>
+    <div style="text-align: center;">
+      <p>Welcome to Goya, your sweet escape into a world of irresistible chocolate delights and serene indulgence. Join us on a journey where every bite is a moment of bliss, blending decadence with tranquility. Indulge your senses and experience the perfect harmony of mouthwatering flavors and relaxation. Welcome to a haven of chocolatey joy at Goya!</p>
+      <h2>A small run-through of Goya:</h2>
+      <p>Our first location is nestled right within the school premises, a sweet haven created by passionate students. Driven by the desire to spread joy, we embarked on this chocolatey journey to make every day a little sweeter for our fellow students and cherished senior citizens. Explore our website for a delightful array of chocolates, crafted with love and dedicated to offering a wonderful experience for all. At Goya, we extend a warm welcome, especially tailored for students and senior citizens, inviting them to savor moments of joy and flavor in every bite!</p>
+    </div>
+  </div>
+
+  <!-- Bottom Section -->
+  <div id="bottom-section">
+    <img src="goya1.jpeg" alt="Product 1" style="max-width: 100%; height: auto;">
+    <img src="goya3.jpeg" alt="Product 2" style="max-width: 100%; height: auto;">
+    <p>Call to Action</p>
+    <p>Contact:</p>
+    <p>09156551175</p>
+    <p>nathanielabaya88@gmail.com</p>
+    <p>CX7J+4G5, Sampaguita, Bacoor, Cavite</p>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById("menu");
+      menu.style.display = (menu.style.display === "none") ? "block" : "none";
+    }
+  </script>
+
+</body>
+</html>

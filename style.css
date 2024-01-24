@@ -1,0 +1,69 @@
+
+body {
+  background-image: url('choco.gif'); 
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#top-section {
+  background-color: #3e2723; /* Dark brown */
+  padding: 10px;
+  text-align: center;
+}
+
+#menu {
+  display: none;
+  background-color: #4e342e; /* Coffee color */
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  width: 150px;
+}
+
+#menu a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding:10px;
+  margin: 10px;
+}
+
+#menu-toggle {
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#middle-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+#middle-section img {
+  max-width: 80px;
+  margin-bottom: 30px;
+}
+
+#bottom-section {
+  text-align: center;
+  padding: 30px;
+  background-color: #4e342e; /* Coffee color */
+}
+
+/* Logo styles */
+#top-section img {
+  width: 100px;
+  height: 40px;
+  margin: auto;
+}
+
+
