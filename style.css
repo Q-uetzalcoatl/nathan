@@ -48,10 +48,6 @@ body {
   padding: 20px;
 }
 
-#middle-section img {
-  max-width: 80px;
-  margin-bottom: 30px;
-}
 
 #bottom-section {
   text-align: center;
@@ -64,14 +60,6 @@ body {
   width: 100px;
   height: 40px;
   margin: auto;
-}
-
-#secondlogo {
-  max-width: 150px; 
-  margin-top: 10px; 
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 
 
