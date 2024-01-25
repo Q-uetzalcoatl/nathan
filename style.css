@@ -66,4 +66,12 @@ body {
   margin: auto;
 }
 
+#secondlogo {
+  max-width: 150px; 
+  margin-top: 10px; 
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 
