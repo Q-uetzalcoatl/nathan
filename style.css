@@ -1,6 +1,7 @@
 
 body {
-  background-image: url('choco.gif'); 
+  background-image: url('choco.gif');
+  background-size: cover;
   color: white;
   font-family: Arial, sans-serif;
   margin: 0;
